@@ -20,3 +20,10 @@ val[2] = 200
 print(val) # change value at index 2 to 200
 
 copyArray = array(val.typecode, (x for x in val))
+
+val.pop(3) # remove value at index 3
+print(val) # print array after removing value at index 3
+val.pop() # remove last value
+print(val) # print array after removing last value
+val.remove(50) # remove first occurrence of 50
+print(val) # print array after removing first occurrence of 50
