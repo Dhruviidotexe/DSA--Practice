@@ -1,17 +1,17 @@
 # Python program to demonstrate
-
+"""
 from array import *
 val = array('i', [1, 2, 3, 4, 5, 6])
 
 print(val)
-"""
+
 for i in range(0,6):
     print(val[i], end = " ")
 
 print("\n")
 for x in val:
     print(x, end = ", ")
-"""
+
 val.insert(1,50)
 print(val) # insert 50 at index 1
 val.append(100)
@@ -65,4 +65,20 @@ arr = np.linspace(1, 10, 5) # create an array with
 arr = np.logspace(1, 10, 5) # create an array with logarithmically spaced values
 
 # arrange() function in numpy module is used to create an array with evenly spaced values over a specified range.
-arr = np.arange(1, 10, 2) # create an array with values from 1 to 10 with a step of 2
+arr = np.arange(1, 10, 2) # create an array with values from 1 to 10 with a step of 2"""
+import numpy as np
+# zero dimensional array
+zero = np.array(42) # create a zero dimensional array
+print(zero)
+
+# one dimensional array
+one = np.array([1, 2, 3, 4, 5]) # create a one dimensional array
+print(one)
+
+# two dimensional array
+two = np.array([[1, 2, 3], [4, 5, 6]]) # create a two dimensional array
+print(two)
+
+# three dimensional array
+three = np.array([[[1, 2, 3], [4, 5 , 6]], [[7, 8, 9], [10, 11, 12]]]) # create a three dimensional array
+print(three)
