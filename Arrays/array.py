@@ -27,3 +27,10 @@ val.pop() # remove last value
 print(val) # print array after removing last value
 val.remove(50) # remove first occurrence of 50
 print(val) # print array after removing first occurrence of 50
+
+#slicing of array:
+abc = val[0 : 2] # slice array from index 0 to 2
+print(abc) # print sliced array
+# [::-1] reverse the array
+
+
